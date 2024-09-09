@@ -1,0 +1,58 @@
+/*
+  Student Name: Arif Ozturk
+  Student ID: 041086524
+  Course: CST8209 - Web Programming I
+  Semester: Spring 2023
+  Assignment: Calender Event 4
+  Date Submitted:  August 10, 2023
+ */
+
+
+#calendar, table {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:80%;
+}
+th {
+  border-style:solid;
+  border-width:1px;
+  margin:10px;
+  padding:10px;
+}
+.day {
+  border-style:solid;
+  border-width:1px;
+  margin:10px;
+  padding:10px;  
+}
+.today {
+  background-color:palegreen;
+}
+.weekend {
+  color:gray;
+}
+
+span{
+  color: brown;
+}
+
+
+canvas{
+	width: 500px;
+	height: 200px;
+}
+
+.progress-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.time-progress-label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
